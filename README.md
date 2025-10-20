@@ -6,20 +6,19 @@ By answering a few simple questions about how often you shop, your response to s
 
 As a top coupon platform committed to smart saving, **EMUCoupon** designed this quiz to encourage more intentional, budget-friendly shopping behavior through self-awareness and practical tips.
 
+---
+
 **Live Tool**
 
 [Shopper’s Personality Quiz](https://www.emucoupon.com/what-kind-of-shopper-are-you)
  
 
-Files in This Repo
+- `index.html` – Main HTML file  
+- `style.css` – Styling  
+- `script.js` – JavaScript logic  
+- `README.md` – Project info
 
-index.html – Main structure of the quiz
-
-style.css – Layout and styling
-
-script.js – Quiz functionality and result logic
-
-README.md – Project overview and usage
+---
 
 Created by
 
