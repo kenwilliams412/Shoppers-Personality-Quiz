@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Shoppers Personality Quiz</title>
+  <title>Shopper's Personality Quiz</title>
   <style>
     /* Your existing CSS here (unchanged) */
     @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -183,10 +183,10 @@
 </head>
 <body>
   <main class="container">
-    <h1>Impulse Buying Checker</h1>
+    <h1>Shopper's Personality Quiz</h1>
     <p class="subtitle">A quick check before you "Add to Cart"</p>
 
-    <form id="impulse-form" novalidate>
+    <form id="shopper-form" novalidate>
       <div class="input-group">
         <label for="item-price">1. Item Price (€)</label>
         <div class="input-with-symbol">
@@ -233,7 +233,7 @@
 
   <script>
     (() => {
-      const form = document.getElementById('impulse-form');
+      const form = document.getElementById('shopper-form');
       const priceInput = document.getElementById('item-price');
       const wageInput = document.getElementById('monthly-wage');
       const resultSection = document.getElementById('result-section');
