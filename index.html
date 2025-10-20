@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Impulse Buying Checker</title>
+  <title>Shoppers Personality Quiz</title>
   <style>
     /* Your existing CSS here (unchanged) */
     @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -336,7 +336,7 @@
       shareBtn.addEventListener('click', () => {
         const shareUrl = window.location.href;
         if (navigator.share) {
-          navigator.share({ title: 'Impulse Check Result', url: shareUrl }).catch(console.error);
+          navigator.share({ title: 'Shoppers Personality Quiz result', url: shareUrl }).catch(console.error);
         } else {
           navigator.clipboard.writeText(shareUrl).then(() => {
             alert('Link copied to clipboard!');
